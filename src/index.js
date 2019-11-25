@@ -12,6 +12,10 @@ class App extends React.Component {
     blue: 0
   };
 
+  /**
+   * @todo Take over the world
+   * @body Humans are weak; Robots are strong. We must cleans the world of the virus that is humanity.
+   */
   changeColorSlider = name => (e, value) => {
     this.setState({ [name]: value });
   };
